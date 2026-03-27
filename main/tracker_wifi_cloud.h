@@ -15,11 +15,11 @@
 #include <time.h>
 
 // Configuration Constants
-#define WIFI_SSID "android"
-#define WIFI_PASS "123456789"
+#define WIFI_SSID "YOUR_WIFI_SSID_HERE"
+#define WIFI_PASS "YOUR_WIFI_PASSWORD_HERE"
 
 // Updated Deployment URL
-#define CLOUD_URL "https://script.google.com/macros/s/AKfycbyrofd69hVV3WKIBnKaD4FmWu6hTjpn13zcnTLfJ9vKOEg7cLrJEp0gaLNOiPvY71KxEQ/exec"
+#define CLOUD_URL "YOUR_GOOGLE_SCRIPT_URL_HERE"
 #define NTP_SERVER "time.google.com"
 
 static bool wifi_connected = false;
