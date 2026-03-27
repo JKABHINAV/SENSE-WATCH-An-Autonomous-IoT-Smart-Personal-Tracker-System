@@ -21,6 +21,7 @@ This document showcases the physical hardware setup, the web dashboard interface
 ---
 
 ## 4. Emergency SMS Alert
+![SMS](https://github.com/user-attachments/assets/678f0b02-460b-430b-9528-6954601d3ccc)
+
 *Example of the automated SMS triggered by the SOS button or inactivity sensor, containing the Google Maps link.*
-![SMS](https://github.com/user-attachments/assets/66b59b4a-5708-4b63-b448-55683df17bbb)
 
