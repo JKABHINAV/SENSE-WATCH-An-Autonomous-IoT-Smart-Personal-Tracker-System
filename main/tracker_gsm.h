@@ -14,7 +14,7 @@
 #define GSM_BUF_SIZE (256)
 
 // Configuration Constants
-const char* targetNumber = "+919611337334"; // IMPORTANT: Use correct formatting with country code.
+const char* targetNumber = "+910000000000"; // REPLACE WITH YOUR NUMBER WITH COUNTRY CODE
 
 // Initialize GSM UART
 esp_err_t gsm_init() {
