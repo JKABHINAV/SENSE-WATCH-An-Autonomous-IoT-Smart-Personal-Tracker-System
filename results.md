@@ -9,7 +9,9 @@ This document showcases the physical hardware setup, the web dashboard interface
 ## 2. Real-Time Web Dashboard
 *The custom web interface displaying live tracking coordinates and system status updates.*
 *LOGIN_PAGE*
+
 <img width="1810" height="953" alt="image" src="https://github.com/user-attachments/assets/cdaaa15e-90bd-4b12-90ab-1736c0eb9256" />
+
 *MAIN_WEBSITE*
 <img width="788" height="503" alt="website" src="https://github.com/user-attachments/assets/4dd5dae4-6d8e-4f03-a5de-b0017d3f98ea" />
 
