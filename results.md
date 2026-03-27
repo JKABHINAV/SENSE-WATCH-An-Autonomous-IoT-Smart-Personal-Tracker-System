@@ -30,3 +30,8 @@ This document showcases the physical hardware setup, the web dashboard interface
 
 *Example of the automated SMS triggered by the SOS button or inactivity sensor, containing the Google Maps link.*
 
+## 3. Cloud Data Logging (Google Sheets)
+*Raw data captured and logged securely to the cloud via Google Apps Script.*
+
+[🔗 Click here to view the Live Tracker Database (Google Sheets)]([PASTE_YOUR_COPIED_LINK_HERE](https://docs.google.com/spreadsheets/d/1pHoHnfEW9Ps_ocXS89IuVnSe3nXtBwNLy-I2MgMRRZA/edit?usp=sharing))
+
