@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Smart Tracker</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Center the login box */
+        body { display: flex; justify-content: center; align-items: center; height: 100vh; }
+        .login-box { width: 100%; max-width: 400px; }
+    </style>
+</head>
+<body>
+    <div class="login-box card">
+        <h2 style="text-align: center; margin-bottom: 20px;">System Login</h2>
+        <form id="loginForm">
+            <label>Username</label>
+            <input type="text" id="username" placeholder="Enter username" required>
+            
+            <label>Password</label>
+            <input type="password" id="password" placeholder="Enter password" required>
+            
+            <button type="submit" class="btn">LOGIN</button>
+        </form>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+</html>

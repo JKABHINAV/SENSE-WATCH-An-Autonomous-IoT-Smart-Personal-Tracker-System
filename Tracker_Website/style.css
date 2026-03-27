@@ -1,0 +1,46 @@
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', sans-serif; }
+body { background-color: #0f172a; color: #f1f5f9; }
+
+header { 
+    background: #1e293b; padding: 1rem 2rem; 
+    display: flex; justify-content: space-between; align-items: center; 
+    border-bottom: 2px solid #38bdf8; 
+}
+
+.container { 
+    display: grid; grid-template-columns: 350px 1fr; 
+    gap: 20px; padding: 20px; height: calc(100vh - 100px); 
+}
+
+.card { background: #1e293b; border: 1px solid #334155; border-radius: 12px; padding: 20px; margin-bottom: 20px; }
+h2 { font-size: 1rem; color: #38bdf8; text-transform: uppercase; margin-bottom: 15px; }
+
+label { display: block; margin-bottom: 5px; font-size: 0.9rem; color: #94a3b8; }
+
+input { 
+    width: 100%; padding: 12px; margin-bottom: 15px; 
+    background: #0f172a; border: 1px solid #334155; 
+    border-radius: 6px; color: white; 
+}
+
+.btn { 
+    width: 100%; padding: 12px; background: #0ea5e9; 
+    color: white; border: none; border-radius: 6px; 
+    cursor: pointer; font-weight: 600; transition: 0.3s;
+}
+
+.btn:hover { background: #0284c7; }
+
+/* Styles for the Google Sheets Button */
+.btn-secondary { background: #10b981; }
+.btn-secondary:hover { background: #059669; }
+
+.logout-btn-header { width: auto; padding: 5px 15px; background: #ef4444; }
+.map-box { height: 450px; border-radius: 12px; overflow: hidden; border: 1px solid #334155; padding: 0; }
+iframe { width: 100%; height: 100%; border: none; border-radius: 12px; }
+
+.table-wrapper { margin-top: 15px; max-height: 250px; overflow-y: auto; border: 1px solid #334155; border-radius: 8px;}
+table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+th { background: #334155; padding: 12px; text-align: left; position: sticky; top: 0; }
+td { padding: 12px; border-bottom: 1px solid #334155; }
+a { text-decoration: none; }

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard | abhinavg16</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        // Boot user out if not logged in
+        if (localStorage.getItem('isLoggedIn') !== 'true') {
+            window.location.href = 'login.html';
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Smart Personal Tracker</h1>
+            <span style="color:#94a3b8">by abhinavg16</span>
+        </div>
+        <button class="btn logout-btn-header" onclick="logout()">Logout</button>
+    </header>
+
+    <div class="container">
+        <div class="sidebar">
+            <div class="card">
+                <h2>Manual Tracking</h2>
+                <label>Coordinate Search</label>
+                <input type="text" id="latLong" placeholder="e.g. 12.9617,77.6627">
+                <button class="btn" onclick="updateMap()">Update View</button>
+            </div>
+
+            <div class="card">
+                <h2>Database Access</h2>
+                <p style="font-size: 0.85rem; color: #94a3b8; margin-bottom: 10px;">View raw logs in Google Sheets:</p>
+                <a href="https://docs.google.com/spreadsheets/d/1PjfWrb3X6pJV548TghoZNnXWHSv-nDbDP9TWZ-R3O80/edit?gid=0#gid=0" target="_blank">
+                    <button class="btn btn-secondary">Open Google Sheet</button>
+                </a>
+            </div>
+
+            <div class="card">
+                <h2>Emergency Contacts</h2>
+                <p><strong>Primary:</strong> +91 9611337334</p>
+                <p><strong>Police:</strong> 100</p>
+            </div>
+        </div>
+
+        <div class="main-content">
+            <div class="card map-box">
+                <iframe id="googleMap" src="https://maps.google.com/maps?q=12.9617,77.6627&t=&z=15&ie=UTF8&iwloc=&output=embed"></iframe>
+            </div>
+            
+            <div class="card">
+                <h2>Activity Log</h2>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Date</th>
+                                <th>Time</th>
+                                <th>Coordinates</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody id="logTable">
+                            <tr><td colspan="4" style="text-align:center;">Loading logs...</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
