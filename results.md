@@ -3,18 +3,19 @@
 This document showcases the physical hardware setup, the web dashboard interface, and the live data logging of the Smart Personal Tracker System.
 
 ## 1. Hardware Setup
-<img width="743" height="577" alt="Screenshot 2026-03-27 233404" src="https://github.com/user-attachments/assets/159a24b8-915c-4196-98c1-516e072d0d5d" />
+<img width="1810" height="953" alt="Screenshot 2026-03-27 233404" src="https://github.com/user-attachments/assets/159a24b8-915c-4196-98c1-516e072d0d5d" />
 
 ---
 ## 2. Real-Time Web Dashboard
 *The custom web interface displaying live tracking coordinates and system status updates.*
-*LOGIN_PAGE*
+
+### System Login Page
 
 <img width="1810" height="953" alt="image" src="https://github.com/user-attachments/assets/cdaaa15e-90bd-4b12-90ab-1736c0eb9256" />
 
-*MAIN_WEBSITE*
-<img width="788" height="503" alt="website" src="https://github.com/user-attachments/assets/4dd5dae4-6d8e-4f03-a5de-b0017d3f98ea" />
+### Main Tracking Dashboard
 
+<img width="1810" height="953" alt="website" src="https://github.com/user-attachments/assets/4dd5dae4-6d8e-4f03-a5de-b0017d3f98ea" />
 
 ---
 
