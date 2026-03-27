@@ -1,4 +1,4 @@
-const webapp_url = "https://script.google.com/macros/s/AKfycbyrofd69hVV3WKIBnKaD4FmWu6hTjpn13zcnTLfJ9vKOEg7cLrJEp0gaLNOiPvY71KxEQ/exec";
+const webapp_url = "YOUR_GOOGLE_SCRIPT_URL_HERE";
 
 function logout() {
     localStorage.removeItem('isLoggedIn');
